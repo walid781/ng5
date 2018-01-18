@@ -1,6 +1,8 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true,
     "outDir": "../out-tsc/app",
     "baseUrl": "./",
     "module": "es2015",
@@ -11,3 +13,4 @@
     "**/*.spec.ts"
   ]
 }
+
