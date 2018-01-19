@@ -53,6 +53,7 @@ export class HomeComponent implements OnInit {
   }
 
   removeItem(index){
+    console.log("index: ", index);
     this.goals.splice(index, 1);
     // this.goals = this.goals.filter(item => item !== index);
     // this.goals = this.goals.drop(index);
